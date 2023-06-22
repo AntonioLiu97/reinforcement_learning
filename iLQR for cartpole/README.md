@@ -6,10 +6,10 @@ Apart from LQR from linear control, this package now supports iterative LQR for 
 New methods and functions:
 lqr.py: ilqr(ABmQRMqrb_list)
 
-cartpole_controller.py: 
+cartpole_controller.py: <br>
   policy_mixture(l1, l2, alpha=1/2) <br>
-  linearized_traject(self, s_ini, policy_list, delta = 1e-7)
-  compute_global_policy(self, s_ini, T, N)
+  linearized_traject(self, s_ini, policy_list, delta = 1e-7) <br>
+  compute_global_policy(self, s_ini, T, N) <br>
 
 cartpole.py:
   new option: flag == 'iLQR'
