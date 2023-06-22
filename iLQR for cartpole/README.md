@@ -1,4 +1,4 @@
-# 2023 Spring CS4789 Programming Assignment 2: CartPole Control with LQR Method
+## 2023 Spring CS4789 Programming Assignment 2: CartPole Control with LQR Method
 ## Refactored by Toni Liu, 2023 March 4th 
 
 Apart from LQR from linear control, this package now supports iterative LQR for highly non-linear control tasks such as the swing-up problem.
@@ -12,11 +12,8 @@ cartpole_controller.py:
   compute_global_policy(self, s_ini, T, N)
 
 cartpole.py:
-  new option: if flag == 'iLQR'
+  new option: flag == 'iLQR'
 
-This repository contains files that may help you get started with the programming assignments 2.
-There are TODOs in the files `finite_difference_method.py`, `lqr.py` and `cartpole_controller.py`.
-Please refer to the docstring in these files for more details.
 
 ## Usage
 
