@@ -1,7 +1,9 @@
 # 2023 Spring CS4789 Programming Assignment 2: CartPole Control with LQR Method
-## Modified by Toni Liu to add iterative LQR method, 2023 March 4th 
+## Refactored by Toni Liu, 2023 March 4th 
 
-New methods:
+Apart from LQR from linear control, this package now supports iterative LQR for highly non-linear control tasks such as the swing-up problem.
+
+New methods and functions:
 lqr.py: ilqr(ABmQRMqrb_list)
 
 cartpole_controller.py: 
