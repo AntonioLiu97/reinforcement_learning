@@ -2,6 +2,7 @@
 ## Refactored by Toni Liu, 2023 March 4th 
 
 Apart from LQR from linear control, this package now supports iterative LQR for highly non-linear control tasks such as the swing-up problem.
+Linear policy mixing is used to stablize policy updates during dynamic programming.
 
 New methods and functions:  <br>
 lqr.py: ilqr(ABmQRMqrb_list)
