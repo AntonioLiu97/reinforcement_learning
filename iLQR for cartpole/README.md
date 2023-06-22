@@ -3,7 +3,7 @@
 
 Apart from LQR from linear control, this package now supports iterative LQR for highly non-linear control tasks such as the swing-up problem.
 
-New methods and functions:
+New methods and functions:  <br>
 lqr.py: ilqr(ABmQRMqrb_list)
 
 cartpole_controller.py: <br>
@@ -11,7 +11,7 @@ cartpole_controller.py: <br>
   linearized_traject(self, s_ini, policy_list, delta = 1e-7) <br>
   compute_global_policy(self, s_ini, T, N) <br>
 
-cartpole.py:
+cartpole.py:  <br>
   new option: flag == 'iLQR'
 
 
