@@ -1,6 +1,9 @@
 ## 2023 Spring CS4789 Programming Assignment 2: CartPole Control with LQR Method
 ## Refactored by Toni Liu, 2023 March 4th 
 
+![iLQR Cartpole Example](./iLQR_cartpole.gif)
+
+
 Apart from LQR from linear control, this package now supports iterative LQR for highly non-linear control tasks such as the swing-up problem.
 Linear policy mixing is used to stablize policy updates during dynamic programming.
 
